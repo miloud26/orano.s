@@ -2,7 +2,7 @@ import React from "react";
 import { Play } from "lucide-react";
 
 const CaseStudy: React.FC = () => {
-  const bookingLink = "https://www.instagram.com/oranos_km/";
+  const bookingLink = "https://www.instagram.com/oranos_km/reels/";
 
   return (
     <section className="py-12 md:py-24 bg-gray-50 px-4 sm:px-10 md:px-20">
