@@ -1,0 +1,43 @@
+import React from "react";
+
+const Header: React.FC = () => {
+  const bookingLink =
+    "https://docs.google.com/forms/d/e/1FAIpQLSdv1_iBv9PXxfPkpWpStX1olH57-SYP-wcuED_mggojuKIfog/viewform";
+
+  return (
+    <header className="bg-[#0a0d1f] py-4 px-4 sm:px-10 md:px-20 flex justify-between items-center sticky top-0 z-50">
+      {/* Booking Button on the Left */}
+      <a
+        href={bookingLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-[#00c9ff] hover:bg-[#00b0e0] text-white font-bold py-3 px-6 sm:px-8 rounded-full flex items-center transition-all duration-300 shadow-lg whitespace-nowrap text-sm sm:text-base"
+      >
+        <span>احجز مكانك معنا الآن</span>
+      </a>
+
+      {/* Logo on the Right */}
+      <div className="flex items-center">
+        <div className="flex flex-col items-end mr-2 sm:mr-3">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-black text-white tracking-tighter leading-none uppercase">
+            oranos
+          </h1>
+          <p className="text-[7px] sm:text-[9px] text-gray-400 uppercase tracking-[0.1em] sm:tracking-[0.2em] font-bold">
+            digital marketing
+          </p>
+        </div>
+        <div className="relative">
+          <svg
+            className="w-8 h-8 sm:w-10 h-10 text-[#00c9ff]"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 2L2 19.74L3.42 22L12 17.56L20.58 22L22 19.74L12 2Z" />
+          </svg>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Header;
