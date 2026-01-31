@@ -26,15 +26,6 @@ const Header: React.FC = () => {
             digital marketing
           </p>
         </div>
-        <div className="relative">
-          <svg
-            className="w-8 h-8 sm:w-10 h-10 text-[#00c9ff]"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path d="M12 2L2 19.74L3.42 22L12 17.56L20.58 22L22 19.74L12 2Z" />
-          </svg>
-        </div>
       </div>
     </header>
   );
